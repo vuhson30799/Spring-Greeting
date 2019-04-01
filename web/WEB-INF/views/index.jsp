@@ -7,19 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>Convert</title>
-  </head>
-  <body>
-  <form action="/convertResult" method="post">
-    <fieldset>
-      <legend>Information</legend>
-      <table>
-        <td>Money:</td>
-        <td><input type="text" name="money"/></td>
-      </table>
-      <button type="submit">Convert</button>
-    </fieldset>
-  </form>
-  </body>
+<head>
+  <title>Greeting</title>
+</head>
+<body>
+<h1>Say hello to ${name}</h1>
+</body>
 </html>
